@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Search from './components/Search';
-import { Spinner } from "flowbite-react";
+import  Spinner  from "./components/Spinner";
 import MovieCard from './components/MovieCard';
 import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "./appwrite";
